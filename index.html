@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Video Editor & Motion Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="custom-cursor"></div>
+
+    <nav class="navbar">
+        <a href="index.html" class="brand-name">Attar Edits</a>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="nav-links">
+            <a href="#work" class="nav-link">Work</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-name">Portfolio</h1>
+                <h2 class="hero-hello">CREATIVE VIDEO EDITOR</h2>
+                <p class="hero-tagline">I’m Shahid — a Video Editor and Motion Designer crafting cinematic visuals and
+                    <br>
+                    impactful storytelling. Based in India, working worldwide.
+                </p>
+                <p class="hero-tagline"><u>Scroll to explore my work.</u></p>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <section id="work" class="work-section">
+            <div class="section-header">
+                <h2 class="section-title reveal">Work</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="2d">2D Animation</button>
+                    <button class="filter-btn" data-filter="3d">3D</button>
+                    <button class="filter-btn" data-filter="commercial">Commercial</button>
+                    <button class="filter-btn" data-filter="reels">Reels</button>
+                </div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- 2D Animation Category -->
+                <div class="project-item reveal" data-category="2d"
+                    data-video="https://www.w3schools.com/html/mov_bbb.mp4">
+                    <img src="thumb_2d_animation.png" alt="Neon Dreams" loading="lazy">
+                    <div class="project-info">
+                        <p class="project-category">2D ANIMATION</p>
+                        <h3 class="project-title">NEON DREAMS</h3>
+                    </div>
+                </div>
+                <div class="project-item reveal" data-category="2d"
+                    data-video="https://www.w3schools.com/html/movie.mp4">
+                    <img src="thumb_2d_animation.png" alt="Abstract Flow" loading="lazy">
+                    <div class="project-info">
+                        <p class="project-category">2D ANIMATION</p>
+                        <h3 class="project-title">ABSTRACT FLOW</h3>
+                    </div>
+                </div>
+                <div class="project-item reveal" data-category="2d"
+                    data-video="https://www.w3schools.com/html/mov_bbb.mp4">
+                    <img src="thumb_2d_animation.png" alt="Retro Vibe" loading="lazy">
+                    <div class="project-info">
+                        <p class="project-category">2D ANIMATION</p>
+                        <h3 class="project-title">RETRO VIBE</h3>
+                    </div>
+                </div>
+
+                <!-- 3D Category -->
+                <div class="project-item reveal" data-category="3d"
+                    data-video="https://www.w3schools.com/html/movie.mp4">
+                    <img src="thumb_3d_render.png" alt="Cyberpunk City" loading="lazy">
+                    <div class="project-info">
+                        <p class="project-category">3D RENDER</p>
+                        <h3 class="project-title">CYBERPUNK CITY</h3>
+                    </div>
+                </div>
+                <div class="project-item reveal" data-category="3d"
+                    data-video="https://www.w3schools.com/html/mov_bbb.mp4">
+                    <img src="thumb_3d_render.png" alt="Mech Evolution" loading="lazy">
+                    <div class="project-info">
+                        <p class="project-category">3D MOTION</p>
+                        <h3 class="project-title">MECH EVOLUTION</h3>
+                    </div>
+                </div>
+                <div class="project-item reveal" data-category="3d"
+                    data-video="https://www.w3schools.com/html/movie.mp4">
+                    <img src="thumb_3d_render.png" alt="Future Living" loading="lazy">
+                    <div class="project-info">
+                        <p class="project-category">3D RENDER</p>
+                        <h3 class="project-title">FUTURE LIVING</h3>
+                    </div>
+                </div>
+
+                <!-- Commercial Category -->
+                <div class="project-item reveal" data-category="commercial"
+                    data-video="https://www.w3schools.com/html/mov_bbb.mp4">
+                    <img src="thumb_commercial.png" alt="Luxury Brand" loading="lazy">
+                    <div class="project-info">
+                        <p class="project-category">COMMERCIAL</p>
+                        <h3 class="project-title">LUXURY BRAND</h3>
+                    </div>
+                </div>
+                <div class="project-item reveal" data-category="commercial"
+                    data-video="https://www.w3schools.com/html/movie.mp4">
+                    <img src="thumb_commercial.png" alt="Tech Showcase" loading="lazy">
+                    <div class="project-info">
+                        <p class="project-category">COMMERCIAL</p>
+                        <h3 class="project-title">TECH SHOWCASE</h3>
+                    </div>
+                </div>
+                <div class="project-item reveal" data-category="commercial"
+                    data-video="https://www.w3schools.com/html/mov_bbb.mp4">
+                    <img src="thumb_commercial.png" alt="Lifestyle Promo" loading="lazy">
+                    <div class="project-info">
+                        <p class="project-category">COMMERCIAL</p>
+                        <h3 class="project-title">LIFESTYLE PROMO</h3>
+                    </div>
+                </div>
+
+                <!-- Reels Category -->
+                <div class="project-item reveal" data-category="reels"
+                    data-video="https://www.w3schools.com/html/movie.mp4">
+                    <img src="thumb_reels.png" alt="2026 Showreel" loading="lazy">
+                    <div class="project-info">
+                        <p class="project-category">REELS</p>
+                        <h3 class="project-title">2026 SHOWREEL</h3>
+                    </div>
+                </div>
+                <div class="project-item reveal" data-category="reels"
+                    data-video="https://www.w3schools.com/html/mov_bbb.mp4">
+                    <img src="thumb_reels.png" alt="Cinematic Reel" loading="lazy">
+                    <div class="project-info">
+                        <p class="project-category">REELS</p>
+                        <h3 class="project-title">CINEMATIC REEL</h3>
+                    </div>
+                </div>
+                <div class="project-item reveal" data-category="reels"
+                    data-video="https://www.w3schools.com/html/movie.mp4">
+                    <img src="thumb_reels.png" alt="Motion Highlights" loading="lazy">
+                    <div class="project-info">
+                        <p class="project-category">REELS</p>
+                        <h3 class="project-title">MOTION HIGHLIGHTS</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="section-header">
+                <h2 class="section-title reveal">About</h2>
+            </div>
+            <div class="profile-container reveal">
+                <div class="profile-content">
+                    <h2 class="profile-hello">ME!</h2>
+                    <p class="profile-bio">
+                        Shahid Attar
+                        Video Editor & Motion Designer
+                        Crafting cinematic edits and modern motion visuals since 2025.
+                        Helping creators and brands stand out through powerful storytelling.
+                        <strong>2025.</strong><br><br>
+                        <span class="underlined">Focused on creating visuals that leave a lasting impression.</span>
+                    </p>
+                </div>
+                <div class="profile-card-wrapper">
+                    <div class="profile-card">
+                        <div class="card-bg"></div>
+                        <img src="D:\editing portfolio\ChatGPT Image Feb 27, 2026, 04_08_59 PM.png"
+                            alt="Shahid Portrait" class="profile-img">
+                    </div>
+                    <div class="profile-details">
+                        <h3 class="profile-name">SHAHID ATTAR</h3>
+                        <p class="profile-subtitle">Video Editor & Motion Designer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="section-header">
+                <h2 class="section-title reveal">Contact</h2>
+            </div>
+            <div class="contact-container reveal">
+                <div class="contact-left">
+                    <img src="contact_avatar.png" alt="Avatar" class="contact-avatar">
+                    <h2 class="contact-heading">REACH ME OUT ON</h2>
+                    <div class="contact-icons">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shahidattar266@gmail.com"
+                            class="contact-icon-link" title="Email" target="_blank" rel="noopener noreferrer">Email</a>
+                        <a href="#" class="contact-icon-link" title="Facebook">Facebook</a>
+                        <a href="https://www.instagram.com/attar_edits?igsh=d2IwaXIyMGo0a2Fl" class="contact-icon-link"
+                            target="_blank" title="Instagram">Instagram</a>
+                        <a href="#" class="contact-icon-link" title="Twitter/X">X / Twitter</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="contact-image-frame slider">
+                        <div class="frame-bg"></div>
+                        <div class="carousel-container">
+                            <img src="contact_featured.png" alt="Featured Work 1" class="carousel-slide active">
+                            <img src="contact_thumb1.png" alt="Featured Work 2" class="carousel-slide">
+                            <img src="contact_thumb2.png" alt="Featured Work 3" class="carousel-slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <video id="lightbox-video" controls autoplay muted loop>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Portfolio. Attar Edits.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
